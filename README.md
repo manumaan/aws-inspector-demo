@@ -2,12 +2,14 @@
 Demo for AWS Inspector
 
 **Vulnerable EC2**
+
 Older Debian (10) AMI to create vulnerable EC2:
 ```
 https://aws.amazon.com/marketplace/pp/prodview-vh2uh3o4pdfow#pdp-overview
 ```
 
 **Vulnerable Container image**
+
 Check the mytestimage folder in repo to create the vulnerable docker image. The rar file is just some text files. Once the image is created, with say name mytestimage, upload to ECR. 
 
 Steps to upload to ECR:
@@ -27,4 +29,5 @@ docker push 471112636280.dkr.ecr.us-east-1.amazonaws.com/vuln-demo:latest
 ```
    
 **Vulnerable Lambda**
+
 Check the nogood-lambda.py for a lambda that would trigger vulnerability findings. 
