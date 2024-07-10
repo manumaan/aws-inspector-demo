@@ -7,6 +7,8 @@ Older Debian (10) AMI to create vulnerable EC2:
 ```
 https://aws.amazon.com/marketplace/pp/prodview-vh2uh3o4pdfow#pdp-overview
 ```
+SSH into the instance and install & start SSM Agent. Wait for it to appear as a managed instance in SSM.
+https://docs.aws.amazon.com/systems-manager/latest/userguide/manually-install-ssm-agent-linux.html
 
 **Vulnerable Container image**
 
