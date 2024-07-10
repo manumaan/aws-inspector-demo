@@ -31,3 +31,5 @@ docker push 471112636280.dkr.ecr.us-east-1.amazonaws.com/vuln-demo:latest
 **Vulnerable Lambda**
 
 Check the nogood-lambda.py for a lambda that would trigger vulnerability findings. 
+
+For more details check: https://dev.to/aws-builders/amazon-inspector-4fk4
